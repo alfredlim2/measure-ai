@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Measure.AI · Quantities from your drawings</title>
+<meta name="description" content="Measure.AI reads your PDF drawings and measures concrete, formwork, finishes and structural steel, with every quantity traceable on the sheet.">
+<link rel="icon" href="/app/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/app/style.css">
+</head>
+<body>
+<div id="app"></div>
+<div id="toasts" aria-live="polite"></div>
+
+<script src="/vendor/pdf.min.js"></script>
+<script src="/vendor/pdf-lib.min.js"></script>
+<!-- measuring engine -->
+<script src="/engine/base.js"></script>
+<script src="/engine/vector.js"></script>
+<script src="/engine/lines.js"></script>
+<script src="/engine/rooms.js"></script>
+<script src="/engine/measure.js"></script>
+<script src="/engine/finishes.js"></script>
+<script src="/engine/steel.js"></script>
+<script src="/engine/naming.js"></script>
+<script src="/engine/report.js"></script>
+<!-- the app -->
+<script src="/app/core.js"></script>
+<script src="/app/auth.js"></script>
+<script src="/app/viewer.js"></script>
+<script src="/app/document.js"></script>
+<script src="/app/run.js"></script>
+<script src="/app/workspace.js"></script>
+<script src="/app/projects.js"></script>
+<script src="/app/account.js"></script>
+<script src="/app/main.js"></script>
+</body>
+</html>

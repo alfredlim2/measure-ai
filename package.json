@@ -1,0 +1,31 @@
+{
+  "name": "measure-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Measure.AI: quantities from construction drawings (concrete & formwork, finishes, steel), with accounts, projects and credits.",
+  "keywords": [
+    "quantity-takeoff",
+    "construction",
+    "pdf",
+    "drawings",
+    "concrete",
+    "formwork",
+    "finishes",
+    "steel",
+    "ai"
+  ],
+  "homepage": "https://github.com/alfredlim2/measure-ai#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredlim2/measure-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alfredlim2/measure-ai/issues"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}

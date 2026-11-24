@@ -1,0 +1,13 @@
+.env
+logs/
+node_modules/
+ai-settings.json
+public/_tmp/
+data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
